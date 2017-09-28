@@ -1,9 +1,14 @@
 public class Twofer {
     public String twofer(String name) {
-        // User Enter Name
-        // Based off string return a specific string
-        if(name == null) {
+        if(name == null){
+            return "One for you, one for me.";
         }
-        return "One for you, one for me.";
+        else if (name == "Alice"){
+            return "One for Alice, one for me.";
+        }
+        else if (name =="Bob"){
+            return "One for Bob, one for me.";
+        }
+        return "One for , one for me.";
     }
 }
